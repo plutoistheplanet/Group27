@@ -81,12 +81,12 @@ hr{
     align-items: flex-start;  /* Align to the top */
     height: 100vh;
     margin: 0;
-    padding-top: 350px; /* Push the progress bar lower */
+    padding-top: 600px; /* Push the progress bar lower */
 }
 
 #myProgress {
     width: 80%;               /* Adjust width as needed */
-    background-color: #ddd;
+    background-color: #888888;
     border-radius: 10px;
     overflow: hidden;
     height: 30px;
@@ -95,7 +95,7 @@ hr{
 #myBar {
     width: 0%;
     height: 100%;
-    background-color: #4caf50;
+    background-color: #e4e4e4;
     text-align: center;
     line-height: 30px;
     color: white;
