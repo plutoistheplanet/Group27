@@ -13,11 +13,11 @@ function move() {
       if (width >= 100) {
         clearInterval(id);
         i = 0;
-        window.location.href = "start.html";
       } else {
         width++;
         elem.style.width = width + "%";
       }
     }
+    window.location.href = "start.html";
   }
 }
