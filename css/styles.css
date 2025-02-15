@@ -81,7 +81,7 @@ hr{
     align-items: flex-start;  /* Align to the top */
     height: 100vh;
     margin: 0;
-    padding-top: 100px; /* Push the progress bar lower */
+    padding-top: 350px; /* Push the progress bar lower */
 }
 
 #myProgress {
