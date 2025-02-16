@@ -43,6 +43,12 @@
     font-weight: 900;
     font-style: normal;
 }
+@font-face {
+    font-family: 'AppleChicagoFont';          /* Name to reference in your CSS */
+    src: url('../fonts/ChicagoFLF.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+}
   
 h1{
     font-family: Titillium Web;
@@ -100,4 +106,39 @@ hr{
     line-height: 30px;
     color: white;
     transition: width 0.1s;
+}
+#options {
+    background: #333;              /* Background for the whole container */
+    border-color: #e4e4e4;
+    border-radius: 5px;
+    display: flex;                 /* Make this a flex container */
+    flex-direction: column;        /* Stack links vertically */
+    width: 300px;
+    padding: 10px;                 /* Adds space inside the nav container */
+}
+
+#options a {
+    text-align: left;
+    text-decoration: none;         /* Remove underline */
+    color: rgb(226, 226, 226);     /* White text */
+    padding: 15px 25px;            /* Increase padding for a larger clickable area */
+    margin: 5px 0;                 /* Adds space between each link */
+    background: #333;              /* Background for each link */
+    border-radius: 5px;            /* Rounded corners */
+    display: block;                /* Makes the whole area clickable */
+}
+
+#options a:hover {
+    background: #555;              /* Darker background on hover */
+}
+#button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
 }
