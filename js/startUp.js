@@ -23,3 +23,4 @@ function move() {
 }
 
 move(); // Call the function to start the progress bar
+
