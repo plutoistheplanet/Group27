@@ -83,25 +83,36 @@ hr{
 }
 .progress-page {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;  /* Align to the top */
-    height: 100vh;
-    margin: 0;
-    padding-top: 600px; /* Push the progress bar lower */
+    flex-direction: column;       /* Stack items vertically */
+    align-items: center;          /* Center horizontally */
+    justify-content: center;      /* Center vertically */
+    height: 100vh;                /* Full height of the viewport */
+    margin: 0;                    /* Remove any margin */
+    padding: 0;                   /* Remove any padding */
+}
+
+.opening-title {
+    align-self: center;       /* Align title to the left */
+    margin-left: 20px;            /* Adjust left margin */
+    margin-bottom: 20px;          /* Add space below the title */
+    font-family: Titillium Web;
+    font-size: 3em;
+    font-weight: bold;
 }
 
 #myProgress {
-    width: 80%;               /* Adjust width as needed */
-    background-color: #888888;
+    width: 80%;
+    background-color: #ddd;
     border-radius: 10px;
     overflow: hidden;
     height: 30px;
+    margin-top: 20px;             /* Space above the progress bar */
 }
 
 #myBar {
     width: 0%;
     height: 100%;
-    background-color: #e4e4e4;
+    background-color: #aaa9a9;
     text-align: center;
     line-height: 30px;
     color: white;
